@@ -1,0 +1,213 @@
+<html>
+<head>
+<link id="favIcon" rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDVVBiF0VjZfSGj1gyXUACt-dEmWrvnNqjQ&amp;s"/><title>Lexus Service Cafe</title>
+<table style="width:100%"><tr><th>
+<img src="https://cdn.prod.website-files.com/63611a8f9da56460872e0182/63b0240dea6dbcee9fda8b2c_al_futtaim.png" width="130" height="100">&nbsp;&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Lexus_division_emblem.svg/2560px-Lexus_division_emblem.svg.png" width="150" height="100">
+<p><p>
+
+<form name="submit-to-google-sheet" action='/' method='POST' onsubmit='disableButton()'>
+
+<p><h2 style="color: #002366";>Lexus Service<br>
+<style="color: Blue";><u>Cafe</u></h2><br>
+
+</head>
+<body>
+<input type="text" value="=row()" name="Serial Number" hidden>
+
+<select id="selectBox" name="Select Menu" required>
+    <option value="">-- Select Menu / حدد القائمة --</option>
+    <option value="Black Tea / الشاي الأسود">Black Tea / الشاي الأسود</option>
+    <option value="Green Tea / الشاي الأخضر">Green Tea / الشاي الأخضر</option>
+    <option value="Ginger Tea / شاي الزنجبيل">Ginger Tea / شاي الزنجبيل</option>
+    <option value="Hot Water / الماء الساخن">Hot Water / الماء الساخن</option>
+    <option value="Espresso / اسبريسو">Espresso / اسبريسو</option>
+    <option value="Americano / أمريكانو">Americano / أمريكانو</option>
+    <option value="Cafe Latte / كافيه لاتيه">Cafe Latte / كافيه لاتيه</option>
+    <option value="Cappuccino / كابتشينو">Cappuccino / كابتشينو</option>
+    <option value="Hot Chocolate / شكولاته ساخنة">Hot Chocolate / شكولاته ساخنة</option>
+    <option value="Espresso Macchiato / إسبريسو ماكياتو">Espresso Macchiato / إسبريسو ماكياتو</option>
+    <option value="Coffee Mocha / قهوة موكا">Coffee Mocha / قهوة موكا</option>
+    <option value="Chocolate Milk / حليب الشوكولاتة">Chocolate Milk / حليب الشوكولاتة</option>
+</select>
+
+<p>
+<label>Sugar &nbsp;&nbsp;&nbsp;&nbsp; Milk<br>
+<input name="Adding" value="Sugar" type="checkbox" id="urgent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="Adding" value="Milk" type="checkbox" id="urgent"><br><br>
+
+<select id="selectBox" name="Counter Number" required>
+    <option value="">- Select Counter # / حدد رقم العداد -</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="Waiting Lounge / صالة الانتظار">Waiting Lounge / صالة الانتظار</option>
+    <option value="Manager Office / مكتب المدير">Manager Office / مكتب المدير</option>
+</select><br><br><br>
+
+
+
+<button class="button button1" onclick="submitData()">Submit</button>
+
+</label></p>
+
+
+    <!-- Result Section -->
+    <div id="result">
+        <strong></strong>
+        <p id="finalText"></p>
+
+    </div>
+
+
+<div id="comments">
+    <p><strong></strong></p>
+    <p id="finalComment"></p>
+<p>Thank you for your order. It has been successfully placed and will be delivered shortly <br><a href="https://www.lexus.ae/en/">Click the link & Know more about Lexus Experience Amazing</a></p>
+</div>
+
+</form>
+
+</body>
+</html>
+
+
+<script>
+    function submitData() {
+        const reason = document.getElementById("selectBox").value;
+        const urgent = document.getElementById("urgent").checked ? "Yes" : "No";
+        document.getElementById("selectBox").style.display = "none";
+        document.getElementById("urgent").parentElement.style.display = "none";
+        document.getElementById("finalText").innerText =
+            " " + reason + " " ;
+        document.getElementById("comments").style.display = "block";
+    }
+</script>
+
+
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycby3AUuJpWYXSMNClR7YJ9TJ3CDo7jLt5Cc2UPsgdDhcW_ohQwuH_3nJMcJvunRARJSo7w/exec"
+  const form = document.forms['submit-to-google-sheet']
+   form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))})
+</script>
+
+
+
+<style>
+select {
+    width: 250px;
+    padding: 8px;
+    text-align: center;
+    text-align-last: center;
+}
+</style>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 40px;
+        }
+        .box {
+            background: #ffffff;
+            padding: 20px;
+            max-width: 450px;
+            margin: auto;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #comments {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+  </style>
+
+
+ 
+
+
+<style type="text/css">     
+    select {
+        width:300px;
+    }
+</style>
+
+<style>
+  .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #555555;} /* Black */
+.button4 {background-color: #f44336;} /* Red */ 
+.button5 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button6 {background-color: #33fff3;} /* light Blue */ 
+.button1 {padding: 20px 50px;}
+.button2 {padding: 20px 42px;}
+.button3 {padding: 20px 42px;}
+
+input[type=radio] {
+    border: 1px;
+    width: 1px;
+    height: 1em;
+    accent-color: red;
+}
+
+input{
+    text-align: center; 
+    font-size: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 5em;
+    height: 5em;
+    border:
+    }
+</style>
+
+<style>
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: Blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+
+
+
