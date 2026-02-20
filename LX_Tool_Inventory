@@ -1,0 +1,435 @@
+ <html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /><link id="favIcon" rel="shortcut icon" href="https://albadia.w3spaces.com/Logo.jpg"/><title>Tools Inventory</title>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>$(function(){$("#country").select2();});</script>
+<script>$(function(){$("#country1").select2();});</script>
+
+<script>
+var select = document.getElementById('country');
+select.onchange = function(e) {
+var value = select.options[select.selectedIndex].dataset.value;
+var input = document.getElementById('customercode');
+input.value = value;}
+</script>
+
+<img src="https://albadia.w3spaces.com/Logo/Alfuttaim.png" width="100" height="75">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img src="https://albadia.w3spaces.com/Logo/Lexus.png" style="max-width: 100px; height: 100px ; margin: -15px 0px; width: 100px;">
+<p><p>
+
+</head>
+
+<body>
+<br><br>
+
+<form name="submit-to-google-sheet" action='/' method='POST' onsubmit='disableButton()'>
+
+
+
+<h3>&ensp;&ensp;Employee ID &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Employee Name <br>
+<select  id="country" name="Employee ID" style="text-align:center; width:175px; border-radius: 4px;"  onclick="javascript:if($(this).val()>
+<option value="Enter Employee ID">Select ID</option> 
+<option data-value="">Select ID</option>
+<option data-value="Mina Makram Ishak Wanas">160573</option>
+<option data-value="Mohammed Elsayed">175343</option>
+<option data-value="Anoud Hashem Ibrahim Zubair Sarhan">177310</option>
+<option data-value="Yasmin Abbas Mohammed Jabr ">173500</option>
+<option data-value="Hidden - Outsource">400001</option>
+<option data-value="Patrick Royston Quadras">136268</option>
+<option data-value="Joaquim Parakel">139555</option>
+<option data-value="Mazin Mohamed Elamin Mohamed Fadul">126634</option>
+<option data-value="Rayan Calvin Carnelio">133727</option>
+<option data-value="Sherif Ouda">180992</option>
+<option data-value="Ghaith Albalooshi">181020</option>
+<option data-value="Lailyn Perez Jagmis">119241</option>
+<option data-value="Mohamed Amer Mohamed Alredhwan Alharthi">176320</option>
+<option data-value=" Fathima Nimnaz">128552</option>
+<option data-value="Khalid Hameed">158722</option>
+<option data-value="Jayakrishnan">181396</option>
+<option data-value="Jose Bright">85736</option>
+<option data-value="Boby george">105083</option>
+<option data-value="Sudheer Penakkuzhiyil">121036</option>
+<option data-value="Usman Raimarakkaruveettil Moideen">113495</option>
+<option data-value="Joseph Mathew">129074</option>
+<option data-value="Rizwan Mian">129382</option>
+<option data-value="Nitin Bhmirao Bangar">108149</option>
+<option data-value="Rakesh Netrekere">171536</option>
+<option data-value="Hamdy Naeem Mohamed Beda">157771</option>
+<option data-value="Muhammed Rashid ">175810</option>
+<option data-value="Ronald Rivera Castro">162945</option>
+<option data-value="Venkatesan Ramalingam">138809</option>
+<option data-value="Abuthahir Vadakkekkara ">169278</option>
+<option data-value="Muhammad Farhan">169738</option>
+<option data-value="Louis Linto Kaitharath">168846</option>
+<option data-value="Nixan Devassy">180550</option>
+<option data-value="Asif Raza">129290</option>
+<option data-value="Venugopal Bhandary">182408</option>
+<option data-value="Mohammed Fazil Vallakkatt">181882</option>
+<option data-value="Chamen">178634</option>
+<option data-value="Kazi Abdul Qaiyum">101401</option>
+<option data-value="Mohammad Arman Alam">170747</option>
+
+
+<option data-value="Zia Ur Rehman Badshah Aslam">114094</option>
+<option data-value="Faizal Mohamed Sali">170335</option>
+<option data-value="Hend Juma Mohammad Aldosari">133363</option>
+<option data-value="Mohammed Mohsin Khuddos ">138845</option>
+<option data-value="Debbie Devilles Guiritan">127840</option>
+<option data-value="Ramesh Chandra">143370</option>
+<option data-value="Saneesh Chemmankattil">154434</option>
+<option data-value="Jayaraaghavendran Niraimathi Kumar">143691</option>
+<option data-value="Waqar Ahmed">159564</option>
+<option data-value="Vinod Adappachery Baby">120885</option>
+<option data-value="Mohammad Shamsan">171880</option>
+<option data-value="Saleem Ahmed Raja">119342</option>
+<option data-value="Razam Mohamed">171681</option>
+<option data-value="Mark kenneth Torres">174800</option>
+<option data-value="Ehsan Farooq Muhammad Farooq">132099</option>
+<option data-value="Mohammad Abbas Azadeh">126447</option>
+<option data-value="Mohammed Alfaz Thotan">176465</option>
+<option data-value="Muhammed Shafeek Vattaparambil ">176993</option>
+<option data-value="Ali Raza">161568</option>
+<option data-value="Nidal Ahwesh">181907</option>
+<option data-value="Bharath Keshavamoorthy">181495</option>
+<option data-value="Asif Mushtaque">181306</option>
+<option data-value="Rishin Ali Thottathil">180958</option>
+<option data-value="Ahmed Moheb Hosni Abdelaal Hammad">181295</option>
+<option data-value="Muhammad Hassan Shahid">160877</option>
+<option data-value="Abubakkar Siddiq Jabar Ali">181064</option>
+<option data-value="Maricel Bagro Catipon">127820</option>
+<option data-value="Roudha Bilal Saqer Shambeh AlBlooshi">171520</option>
+<option data-value="Alia Hussain Alsayed Abbas Alsayed Mohd">178534</option>
+<option data-value="Anoud Hashem Ibrahim Zubair Sarhan">177310</option>
+<option data-value="Muna Ismail Mohammed Issa Alblooshi ">182135</option>
+<option data-value="Maha Mesarri Obaid Mohammad Alblooshi">180497</option>
+<option data-value="Hamdan Abdalla Ibrahim Abdalla Alyassi">180961</option>
+<option data-value="Naif Mohammed Abdullah Albusaeedi">182191</option>
+<option data-value="Meshael Amin Ahmad">166345</option>
+<option data-value="Gina De Boda Mendoza">115245</option>
+<option data-value="Javed Anwar">171255</option>
+<option data-value="Ma Michelle Sta Ana Sigler">163556</option>
+<option data-value="Mohammad Ibrahim Mohammad AlHajeri">173521</option>
+<option data-value="Arjun Khadka">111789</option>
+<option data-value="Faslu Rahman Manikkoth">173696</option>
+<option data-value="Fahad Bilal Waheed Murad Faraz">167873</option>
+<option data-value="Sabareesh Kollancheri Puthanveettil">167467</option>
+<option data-value="Mohammed Salim">174298</option>
+<option data-value="Aman Kamal Kohli">167801</option>
+<option data-value="Muhammad Asif">181326</option>
+<option data-value="Deepak Ellath Vatavathi">106939</option>
+<option data-value="Maulingkar Ulhas Arjun">135593</option>
+<option data-value="Niju Nelson">133806</option>
+<option data-value="Nikesh Tharammal">108240</option>
+<option data-value="Joshua Lionel Fernandes">175008</option>
+<option data-value="Toggy Thomas">119735</option>
+<option data-value="Rashid Hasan">108164</option>
+<option data-value="Moncy Kakkassery Verghese">107698</option>
+<option data-value="Aruna Tharaka Maddage Maddage Don">128964</option>
+<option data-value="Waas Premil K">92084</option>
+<option data-value="Dayananda Gowda">120754</option>
+<option data-value="Pavin Vadakkumparambil Pankajakshan">127903</option>
+<option data-value="Adnan Sani">123065</option>
+<option data-value="Clanute Joylus Dsouza">118931</option>
+<option data-value="Lito Gayondato Talagon">86128</option>
+<option data-value="Linesh Velutha Parambath">121119</option>
+<option data-value="Ansar Hussain Irteza">114108</option>
+<option data-value="Arun Kumar Ambika Sukumaran">167319</option>
+<option data-value="Naeem James">171534</option>
+<option data-value="Muhammad Kashif">134518</option>
+<option data-value="Sajid Rafiq Muhammad Ali">129441</option>
+<option data-value="Vibindas Kochiparambath Velayikutty">128102</option>
+<option data-value="Rosim Najeeb">119063</option>
+<option data-value="Muhammad Arshad Shafi">114200</option>
+<option data-value="Raja Naveed Khan">113812</option>
+<option data-value="Subramaniam Poolakkal">130941</option>
+<option data-value="Ramie De Asis Dolorico">164596</option>
+<option data-value="Shaheed Ellante Thodukayil">170112</option>
+<option data-value="Yacob Jose Chenathuparamban">119181</option>
+<option data-value="Shahbaz Ahmed">119280</option>
+<option data-value="Shinu Abraham">131175</option>
+<option data-value="Nehar Abdul Wahid Ali">110603</option>
+<option data-value="Mohammed Zahlan Hussain">164992</option>
+<option data-value="Azam Khan Mohmed Saeed Khan">118826</option>
+<option data-value="Kelvin Fernando Sounderraj">108057</option>
+<option data-value="Karnish Rajan">130911</option>
+<option data-value="Bildad Peter">130896</option>
+<option data-value="Mohamed Khidir Mohamed Alhaj">165617</option>
+<option data-value="Alfred Jose Alphonse">130878</option>
+<option data-value="Rithesh DSouza">165563</option>
+<option data-value="Akhil Chandran Chandran">167730</option>
+<option data-value="Muhammad Jamal Khan Aurangzaib Zaib">133195</option>
+<option data-value="Michael San Juan De Mesa">136976</option>
+<option data-value="Muhammad Irfan">129029</option>
+<option data-value="Abdul Qadir Muhammad Arshad">160702</option>
+<option data-value="Ahmad Ali Akbar Ghulam Abbas">120747</option>
+<option data-value="Joel Aboganda Mabansag">134966</option>
+<option data-value="Jonnel Choche Cabus">135053</option>
+<option data-value="Aflah Shadin Pulladiparambil">169750</option>
+<option data-value="Ramji Subedi">132997</option>
+<option data-value="Sheraz Auto">158549</option>
+<option data-value="Mohamed Hafsal Chennenkkat">173140</option>
+<option data-value="Abdul Razaq">173025</option>
+<option data-value="Sanju Chandran Nariyampully">171538</option>
+<option data-value="Muhammad Faiz Bakhsh Azam">129130</option>
+<option data-value="Muhammad Imran Muhammad Sadiq">160740</option>
+<option data-value="Ajanas Hameed">173972</option>
+<option data-value="Shahnawaz  Shah">173996</option>
+<option data-value="Pasindu Janith Uyangoda">174652</option>
+<option data-value="Pranav Prakasan">175351</option>
+<option data-value="Nisar Ahmed">176133</option>
+<option data-value="Michael Louiegie Geron">175793</option>
+<option data-value="Rafaqat khan">177019</option>
+<option data-value="Karthik Puthalath">177039</option>
+<option data-value="Shaazib Ali">177018</option>
+<option data-value="Harshith Moolemane Dharmapala">179679</option>
+<option data-value="Nithish Shetty">179997</option>
+<option data-value="Gagandeep Singh">180010</option>
+<option data-value="Melvin Jijo">181724</option>
+<option data-value="Mark Vincent Mendoza Barrios">181877</option>
+<option data-value="Evin Puthirikkal Varghese">181809</option>
+<option data-value="Jawhar Hussain Mohamed">181852</option>
+<option data-value="Sachu Rajendran Shylaja">181874</option>
+<option data-value="Zoren Despe Balingasa">182462</option>
+<option data-value="Aneesh Edayalil Makkar">182428</option>
+<option data-value="Natarajan Subramainyan">182311</option>
+<option data-value="Sumesh Chalath">182435</option>
+<option data-value="Vishnu Chittangari Kuniyil">182543</option>
+<option data-value="Athila Buddhika Abesuriya Patabandige">182610</option>
+<option data-value="Nelwin Francis">182752</option>
+<option data-value="Maheswaran Selvam">182738</option>
+<option data-value="Yadhukrishnan">182936</option>
+<option data-value="ANTO">183285</option>
+
+
+
+
+</select>
+&ensp;&ensp;
+<input id="customercode" name="Employee Name" style="text-align:center;" size="40" readonly></h3><p>
+
+
+<table style="width:100%">
+<tr>
+<th>DRAWER - 01</th></tr>
+</table><table style="width:100%">
+<tr>
+
+<th>01</th><th>VERNIER CALIPER DIGITAL</th><th><select name="VERNIER CALIPER DIGITAL" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>02</th><th>TIRE DEPTH GAUGE</th><th><select name="TIRE DEPTH GAUGE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>03</th><th>A/C TEMPERATURE GAUGE DIGITAL</th><th><select name="A/C TEMPERATURE GAUGE DIGITAL" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>04</th><th>FEELER GAUGE</th><th><select name="FEELER GAUGE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>05</th><th>BRAKE PAD THICKNESS GAUGE</th><th><select name="BRAKE PAD THICKNESS GAUGE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<table style="width:100%">
+<tr>
+<th>DRAWER - 02</th></tr>
+</table><table style="width:100%">
+<tr>
+<th>01</th><th>SOCKETS 8MM 3/8 DRIVE</th><th><select name="SOCKETS 8MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>02</th><th>SOCKETS 10MM 3/8 DRIVE</th><th><select name="SOCKETS 10MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>03</th><th>SOCKETS 12MM 3/8 DRIVE</th><th><select name="SOCKETS 12MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>04</th><th>SOCKETS 14MM 3/8 DRIVE</th><th><select name="SOCKETS 14MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>05</th><th>SOCKETS 17MM 3/8 DRIVE</th><th><select name="SOCKETS 17MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>06</th><th>SOCKETS 19MM 3/8 DRIVE</th><th><select name="SOCKETS 19MM 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>07</th><th>SOCKETS 14MM 1/2 DRIVE</th><th><select name="SOCKETS 14MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>08</th><th>SOCKETS 17MM 1/2 DRIVE</th><th><select name="SOCKETS 17MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>09</th><th>SOCKETS 19MM 1/2 DRIVE</th><th><select name="SOCKETS 19MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>10</th><th>SOCKETS 21MM 1/2 DRIVE</th><th><select name="SOCKETS 21MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>11</th><th>SOCKETS 22MM 1/2 DRIVE</th><th><select name="SOCKETS 22MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>12</th><th>SOCKETS 24MM 1/2 DRIVE</th><th><select name="SOCKETS 24MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>13</th><th>DEEP BLACK SOCKET 8 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 8 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>14</th><th>DEEP BLACK SOCKET 10 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 10 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>15</th><th>DEEP BLACK SOCKET 12 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 12 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>16</th><th>DEEP BLACK SOCKET 14 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 14 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>17</th><th>DEEP BLACK SOCKET 17 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 17 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>18</th><th>DEEP BLACK SOCKET 19 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 19 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>19</th><th>DEEP BLACK SOCKET 21 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 21 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>20</th><th>DEEP BLACK SOCKET 22 MM 1/2 DRIVE</th><th><select name="DEEP BLACK SOCKET 22 MM 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>21</th><th>SOCKET ADAPTOR 3/8 DRIVE</th><th><select name="SOCKET ADAPTOR 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>22</th><th>SOCKET ADAPTOR 1/2 DRIVE</th><th><select name="SOCKET ADAPTOR 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>23</th><th>OPEN END WRENCH 8X10</th><th><select name="OPEN END WRENCH 8X10" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>24</th><th>OPEN END WRENCH 10X12</th><th><select name="OPEN END WRENCH 10X12" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>25</th><th>OPEN END WRENCH 12X14</th><th><select name="OPEN END WRENCH 12X14" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>26</th><th>OPEN END WRENCH 14X17</th><th><select name="OPEN END WRENCH 14X17" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>27</th><th>OPEN END WRENCH 17X19</th><th><select name="OPEN END WRENCH 17X19" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>28</th><th>COMBINATION WRENCH 8MM</th><th><select name="COMBINATION WRENCH 8MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>29</th><th>COMBINATION WRENCH 10MM</th><th><select name="COMBINATION WRENCH 10MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>30</th><th>COMBINATION WRENCH 12MM</th><th><select name="COMBINATION WRENCH 12MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>31</th><th>COMBINATION WRENCH 14MM</th><th><select name="COMBINATION WRENCH 14MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>32</th><th>COMBINATION WRENCH 17MM</th><th><select name="COMBINATION WRENCH 17MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>33</th><th>COMBINATION WRENCH 19MM</th><th><select name="COMBINATION WRENCH 19MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>34</th><th>SPARK PLUG WRENCH 14MM</th><th><select name="SPARK PLUG WRENCH 14MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>35</th><th>SPARK PLUG WRENCH 16MM</th><th><select name="SPARK PLUG WRENCH 16MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>36</th><th>SPARK PLUG WRENCH 20.6MM</th><th><select name="SPARK PLUG WRENCH 20.6MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>37</th><th>ALLEN KEY SOCKET 5MM</th><th><select name="ALLEN KEY SOCKET 5MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>38</th><th>ALLEN KEY SOCKET 6MM</th><th><select name="ALLEN KEY SOCKET 6MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>39</th><th>ALLEN KEY SOCKET 10MM</th><th><select name="ALLEN KEY SOCKET 10MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>40</th><th>EXTENSION BAR 3/8 DRIVE 75MM</th><th><select name="EXTENSION BAR 3/8 DRIVE 75MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>41</th><th>EXTENSION BAR 3/8 DRIVE 150MM</th><th><select name="EXTENSION BAR 3/8 DRIVE 150MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>42</th><th>EXTENSION BAR 3/8 DRIVE 300MM</th><th><select name="EXTENSION BAR 3/8 DRIVE 300MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>43</th><th>UNIVERSAL JOINT 3/8 DRIVE</th><th><select name="UNIVERSAL JOINT 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>44</th><th>UNIVERSAL JOINT 1/2 DRIVE</th><th><select name="UNIVERSAL JOINT 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<table style="width:100%">
+<tr>
+<th>DRAWER - 04</th></tr>
+</table><table style="width:100%">
+<tr>
+<th>01</th><th>BOX WRENCH 10X12</th><th><select name="BOX WRENCH 10X12" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>02</th><th>BOX WRENCH 12X14</th><th><select name="BOX WRENCH 12X14" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>03</th><th>BOX WRENCH 14X17</th><th><select name="BOX WRENCH 14X17" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>04</th><th>BOX WRENCH 19X21</th><th><select name="BOX WRENCH 19X21" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>05</th><th>BOX WRENCH 22X24</th><th><select name="BOX WRENCH 22X24" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>06</th><th>SHORT LENGTH SPANNER 8X10</th><th><select name="SHORT LENGTH SPANNER 8X10" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>07</th><th>SHORT LENGTH SPANNER 12X14</th><th><select name="SHORT LENGTH SPANNER 12X14" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>08</th><th>RATCHET COMBINATION 10MM</th><th><select name="RATCHET COMBINATION 10MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>09</th><th>RATCHET COMBINATION 12MM</th><th><select name="RATCHET COMBINATION 12MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>10</th><th>RATCHET COMBINATION 14MM</th><th><select name="RATCHET COMBINATION 14MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>11</th><th>RATCHET COMBINATION 17MM</th><th><select name="RATCHET COMBINATION 17MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>12</th><th>RATCHET COMBINATION 19MM</th><th><select name="RATCHET COMBINATION 19MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>13</th><th>FLAT SCREW DRIVER 150 MM</th><th><select name="FLAT SCREW DRIVER 150 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>14</th><th>FLAT SCREW DRIVER 100 MM</th><th><select name="FLAT SCREW DRIVER 100 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>15</th><th>FLAT SCREW DRIVER THIN</th><th><select name="FLAT SCREW DRIVER THIN" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>16</th><th>FLAT SCREW DRIVER 75 MM</th><th><select name="FLAT SCREW DRIVER 75 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>17</th><th>FLAT SCREW DRIVER STUBBY</th><th><select name="FLAT SCREW DRIVER STUBBY" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>18</th><th>PHILIP SCREW DRIVER 150 MM</th><th><select name="PHILIP SCREW DRIVER 150 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>19</th><th>PHILIP SCREW DRIVER 100 MM</th><th><select name="PHILIP SCREW DRIVER 100 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>20</th><th>PHILIP SCREW DRIVER THIN</th><th><select name="PHILIP SCREW DRIVER THIN" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>21</th><th>PHILIP SCREW DRIVER 75 MM</th><th><select name="PHILIP SCREW DRIVER 75 MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>22</th><th>PHILIP SCREW DRIVER STUBBY</th><th><select name="PHILIP SCREW DRIVER STUBBY" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+
+<table style="width:100%">
+<tr>
+<th>DRAWER - 04</th></tr>
+</table><table style="width:100%">
+<tr>
+<th>01</th><th>DRIVE SOCKET DEEP 8MM</th><th><select name="DRIVE SOCKET DEEP 8MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>02</th><th>DRIVE SOCKET DEEP 10MM</th><th><select name="DRIVE SOCKET DEEP 10MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>03</th><th>ADJUSTABLE WRENCH STANDARD SIZE 200</th><th><select name="ADJUSTABLE WRENCH STANDARD SIZE 200" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>04</th><th>EXTENSION BAR 1/2 DRIVE 75MM</th><th><select name="EXTENSION BAR 1/2 DRIVE 75MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>05</th><th>EXTENSION BAR 1/2 DRIVE 100MM</th><th><select name="EXTENSION BAR 1/2 DRIVE 100MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>06</th><th>EXTENSION BAR 1/2 DRIVE 300MM</th><th><select name="EXTENSION BAR 1/2 DRIVE 300MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>07</th><th>MECHANICAL PLIER</th><th><select name="MECHANICAL PLIER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>08</th><th>RATCHET 3/8 DRIVE</th><th><select name="RATCHET 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>09</th><th>BRASS BAR STANDARD SIZE</th><th><select name="BRASS BAR STANDARD SIZE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>10</th><th>SPARK PLUG GAUGE</th><th><select name="SPARK PLUG GAUGE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>11</th><th>CLIP REMOVER</th><th><select name="CLIP REMOVER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>12</th><th>PRECISSION VERNIER CALIPER</th><th><select name="PRECISSION VERNIER CALIPER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>13</th><th>T-HANDLE 3/8 DRIVE</th><th><select name="T-HANDLE 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<table style="width:100%">
+<tr>
+<th>DRAWER - 05</th></tr>
+</table><table style="width:100%">
+<tr>
+<th>1</th><th>ALLEN KEY 10MM</th><th><select name="ALLEN KEY 10MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>2</th><th>MILWAUKEE IMPACT GUN 1/2 DRIVE</th><th><select name="MILWAUKEE IMPACT GUN 1/2 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>3</th><th>MILWAUKEE IMPACT GUN BATTERY X 2 PC SET</th><th><select name="MILWAUKEE IMPACT GUN BATTERY X 2 PC SET" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>4</th><th>MILWAUKEE RATCHET GUN 3/8 DRIVE</th><th><select name="MILWAUKEE RATCHET GUN 3/8 DRIVE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>5</th><th>MILWAUKEE RATCHET GUN BATTERY X 2 PC SET</th><th><select name="MILWAUKEE RATCHET GUN BATTERY X 2 PC SET" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>6</th><th>MILWAUKEE BATTERY CHARGER</th><th><select name="MILWAUKEE BATTERY CHARGER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>7</th><th>FILTER WRENCH 65MM</th><th><select name="FILTER WRENCH 65MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>8</th><th>FILTER WRENCH 75MM</th><th><select name="FILTER WRENCH 75MM" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>9</th><th>MONKEY WRENCH</th><th><select name="MONKEY WRENCH" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>10</th><th>GRIP PLIER</th><th><select name="GRIP PLIER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>11</th><th>MAGNET</th><th><select name="MAGNET" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>12</th><th>POWER HANDLE</th><th><select name="POWER HANDLE" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>13</th><th>BALL PEEN HAMMER</th><th><select name="BALL PEEN HAMMER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>14</th><th>GASKET SCRAPER</th><th><select name="GASKET SCRAPER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>15</th><th>AIR GUN</th><th><select name="AIR GUN" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>16</th><th>TORQUE WRENCH</th><th><select name="TORQUE WRENCH" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>17</th><th>TIE PRESSURE GAUGE DIGITAL</th><th><select name="TIE PRESSURE GAUGE DIGITAL" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>18</th><th>FENDER COVER SET OF 3</th><th><select name="FENDER COVER SET OF 3" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>19</th><th>SCANGRIP TORCH LIGHT</th><th><select name="SCANGRIP TORCH LIGHT" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>20</th><th>GREASE GUN</th><th><select name="GREASE GUN" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>21</th><th>WATER GUN</th><th><select name="WATER GUN" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+<th>22</th><th>BRAKE BLEEDER</th><th><select name="BRAKE BLEEDER" required><option value=""><option value="AVAILABLE">AVAILABLE<option value="DAMAGE">DAMAGE<option value="MISSING">MISSING<option value="NOT ISSUED">NOT ISSUED</option></tr>
+
+
+
+</tr></table>
+
+<p>
+<button class="button button1" id="btn">Submit</button>
+</form>
+</head>
+<body>
+</head>
+</html>
+
+
+
+
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbwah7nMZgWP9wbI2rdqa_zehoYv2oJGYDS0OFaFlK5pCkTRAAuuevlNzK7ASvetNGvW2w/exec"
+  const form = document.forms['submit-to-google-sheet']
+   form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))})
+</script>
+
+<script>
+function myalert() {
+alert("Successfully Submitted");
+}
+</script>
+<script>
+var select = document.getElementById('country');
+select.onchange = function(e) {
+var value = select.options[select.selectedIndex].dataset.value;
+var input = document.getElementById('customercode');
+input.value = value;}
+</script>
+<script>
+    function disableButton() {
+        var btn = document.getElementById('btn');
+        btn.disabled = true;
+        btn.innerText = 'Posted'
+    }
+</script>
+
+<style>
+  .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: none;
+  text-align: center;
+}
+</style>
+<style>
+  
+table, th, td{border:1px solid black;}
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 9px;
+  face:Arial Narrow;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+
+</style>
